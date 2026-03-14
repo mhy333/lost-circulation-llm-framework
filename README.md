@@ -67,7 +67,7 @@ If you use this framework in your research, please cite:
 ```bibtex
 @software{mu2026lostcirculation,
   title={Lost Circulation LLM Framework},
-  author={Huayan Mu and Guancheng Jiang},
+  author={Mu H. et al},
   year={2026},
   url={https://github.com/mhy333/lost-circulation-llm-framework}
 }
