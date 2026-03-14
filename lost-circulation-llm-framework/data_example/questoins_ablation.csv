@@ -1,0 +1,31 @@
+﻿QID,QuestionText,Scenario,Type,Difficulty,GoldKeyPoints,NeedKG
+Q001,某井在 2500–2550 m 段 ECD 较高（1.68 g/cm³），井史显示邻井在同层段发生轻微漏失，请判断该井段的井漏风险等级并说明原因。,RiskAssessment,M/C,Medium,ECD 接近破裂压力、邻井漏失先验、储层力学条件；风险中–高,Yes
+Q002,在刘家沟组钻进时，钻头处 ECD 比套管鞋 ECD 高 0.12 g/cm³，请分析该情况下的井漏风险变化趋势。,RiskAssessment,M,Medium,ECD 梯度、压差作用、诱导裂缝倾向,Yes
+Q003,已知某井在 3100 m 处钻压波动明显，但泵压稳定，请判断井漏风险是否升高。,RiskAssessment,F/M,Medium,钻压波动=井壁不稳可能 → 但泵压正常 → 井漏风险未显著升高,No
+Q004,邻井在 2900–3000 m 出现瞬时漏失，该井计划使用密度 1.5 g/cm³ 的高密度水基钻井液，请评估风险。,RiskAssessment,M/P,Hard,高密度液体导致诱导裂缝风险；邻井先验；需要降低ECD 或加缓冲剂,Yes
+Q005,井漏风险指数 MLR=0.63（>0.55 阈值），请判断井漏发生概率并说明理由。,RiskAssessment,C,Easy,阈值判断，属于高风险段,No
+Q006,某井段岩性为粉砂岩，渗透率 0.5–1.0 mD，请判断发生渗透性漏失的可能性。,RiskAssessment,M,Easy,渗透率低，渗透性漏失概率小,No
+Q101,某井在 2800 m 突然出现中速漏失（8–12 m³/h），泵压略下降，岩性为脆性砂岩，判断漏失类型。,LostType,M/KG,Medium,裂缝性或诱导裂缝；关联脆性层 → 易形成裂缝；中速漏失,Yes
+Q102,钻进页岩段出现低速漏失（<5 m³/h），泵压无明显波动，可能的漏失类型是什么？,LostType,M,Easy,渗透性漏失,No
+Q103,断层附近钻进，突然出现涌速型漏失，泵压波动大，判断漏失类型并解释机理。,LostType,M/KG,Hard,断层导通空间大 → 断层漏失,Yes
+Q104,孔洞发育的灰岩段出现大位移漏失，钻井液密度变化不明显，判断漏失类型。,LostType,M,Medium,孔洞漏失,No
+Q105,若某段井漏伴随扭矩升高、立管压力下降，可能是哪类漏失？,LostType,M,Medium,裂缝性或诱导裂缝 → 高扭矩,Yes
+Q106,钻压稳定、泵压突然降低，漏失速度很大，判断此时可能的漏失类型？,LostType,F/M,Easy,裂缝性或断层漏失,No
+Q107,若漏失伴随井壁坍塌和碎屑返出，漏失类型倾向于？,LostType,M,Medium,不整合面漏失,Yes
+Q108,诱导裂缝常见触发条件有哪些？,LostType,M/KG,Hard,高ECD、脆性层、压差大、井眼稳定性问题,Yes
+Q109,若钻井液黏度过低导致滤失增加，可能诱发哪类漏失？,LostType,M,Medium,渗透性漏失 → 滤失高,Yes
+Q110,给定层位破裂压力 1.72 g/cm³，而 ECD=1.74 g/cm³，最可能出现的漏失类型？,LostType,C/M,Medium,诱导裂缝,No
+Q201,某井在 3050–3120 m 出现 AC 降低、GR 升高的异常，同时邻井在 3080 m 漏失，请判断该井最可能的漏点。,LostPoint,M/KG,Hard,利用 AC/GR 异常 + 邻井先验；漏点≈3080m,Yes
+Q202,当前井在 2600–2700 m 段 SP 值异常，但邻井无漏失历史，是否能判断漏点？,LostPoint,F,Easy,无法直接判断，需要更多数据,No
+Q203,若该井在 2800 m 附近 RLLD 与 RLLS 差值增大，说明什么？,LostPoint,M,Medium,存在裂缝/高渗区 → 漏点可能,No
+Q204,渗透率曲线在 2950 m 突升，同时邻井也在 2950–2970 m 漏失，请确定漏点区段。,LostPoint,M/C,Medium,区间重叠；=2950–2970m,Yes
+Q205,若邻井 A 与邻井 B 在两个不同深度都发生漏失，该井应选择哪个作为差分参考？,LostPoint,F/P,Medium,选择地层结构/井型/偏移距离更一致的邻井,No
+Q206,请根据 AC、GR、RT 的联合异常判断某井是否存在潜在漏点。,LostPoint,M,Hard,AC下降+GR升+RT下降 → 软弱层/裂缝 → 潜在漏点,Yes
+Q301,裂缝性漏失常用哪类堵漏材料？请说明原因。,Plugging,P/M,Medium,桥接材料、颗粒+纤维，形成桥架 → 高裂缝闭合压力,Yes
+Q302,渗透性漏失的优先处理措施是什么？,Plugging,P,Easy,高滤失封堵剂、颗粒微细材料,No
+Q303,孔洞漏失适用哪类高强度堵漏体系？,Plugging,P,Medium,大颗粒+快速固化体系,No
+Q304,若诱导裂缝由 ECD 过高引起，应如何调整钻井液性能？,Plugging,M/P,Medium,降低密度、调整流变、使用缓冲剂,Yes
+Q305,若井漏发生在断层附近，如何进行堵漏？,Plugging,M/P,Hard,高强度体系、控制压差、可能分级挤注,Yes
+Q306,如何制定“分级堵漏”策略？,Plugging,P,Medium,先大颗粒 → 中颗粒 → 纤维；逐级提高压力,No
+Q307,如何基于机理图谱选择堵漏材料？,Plugging,KG/P,Hard,依据节点“漏失类型→机理→推荐措施”，引用图谱关系,Yes
+Q308,钻井液固相含量过高易诱发哪类漏失，应如何处理？,Plugging,M/P,Medium,诱导裂缝,Yes
